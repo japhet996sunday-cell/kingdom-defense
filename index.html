@@ -3,25 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kingdom Defense</title>
+    <title>Kingdom Defense V2</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div id="game-container">
 
         <header id="hud">
-            <div>❤️ Lives: <span id="lives">100</span></div>
-            <div>🪙 Gold: <span id="gold">300</span></div>
-            <div>🌊 Wave: <span id="wave">1</span></div>
+
+            <div>
+                ❤️ Lives:
+                <span id="lives">20</span>
+            </div>
+
+            <div>
+                🪙 Gold:
+                <span id="money">300</span>
+            </div>
+
+            <div>
+                🌊 Wave:
+                <span id="wave">1</span>
+            </div>
+
         </header>
 
-        <canvas id="gameCanvas" width="1280" height="720"></canvas>
+        <canvas
+            id="gameCanvas"
+            width="1280"
+            height="720">
+        </canvas>
 
     </div>
 
-    <script type="module" src="js/main.js"></script>
+    <script type="module" src="main.js"></script>
 
 </body>
-                                                     </html>
